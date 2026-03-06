@@ -1,0 +1,32 @@
+DIFERENTES TIPOS DE FAZER UMA FUNÇÃO
+
+- FUNÇÃO BÁSICA ✔
+    function somar (){
+    let v1 =10;
+    let v2 = 10;
+    const resultado = v1 + v2;
+    console.log(resultado)}
+
+- FUNÇÃO COM RETURN ✔
+function somar(v1,v2){
+    const resultado = v1 + v2
+    return resultado}
+
+- FUNÇÃO COM RETURN v2
+function somar(v1, v2){
+    return v1 + v2}
+
+CÁLCULO DE PORCENTAGEM
+
+- FUNÇÃO DECLARATIVA
+function porcentagem(valor, taxa){
+    return valor * (taxa/100)}
+const calc = () =>{};
+
+- FUNÇÃO DE SETA
+let calcPorcentagem = (valor, taxa) =>{
+    return valor * (taxa/100)}
+
+- RESOLUÇÃO 02
+let calPorcentagem = (valor, taxa) =>{
+    return valor + (valor * (taxa/100))}
