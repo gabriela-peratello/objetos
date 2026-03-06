@@ -30,3 +30,24 @@ let calcPorcentagem = (valor, taxa) =>{
 - RESOLUÇÃO 02
 let calPorcentagem = (valor, taxa) =>{
     return valor + (valor * (taxa/100))}
+
+
+Forma literal
+let quadrado = {
+    lados: 4,
+    area: function(lado){return lado * lado},
+    perimetro: function(lado){return this.lados * lado}
+};
+
+ Forma reduzida - This = contexto do próprio objeto
+ const lados = 10;
+
+ const quadrado2 = {
+    lados: 4, area(lado){return lado * lado}, perimetro(lado){return this.lados * lado}
+};
+
+console.log(quadrado2.perimetro(5))
+
+MÉTODO = Função dentro de um objeto
+CLASSE = Maiúscula
+VARIÁVEL

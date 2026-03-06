@@ -1,0 +1,1 @@
+// Classe é uma definição, como o objeto deve ser.
